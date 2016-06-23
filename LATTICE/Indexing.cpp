@@ -1,0 +1,11 @@
+#ifndef __INDEXING__CPP__
+#define __INDEXING__CPP__
+
+//CHECKERBOARD PARITY
+#define CHECKERBOARD_EVEN_FLAG 0
+#define CHECKERBOARD_ODD_FLAG 1
+#define CHECKERBOARD_ALL_FLAG -1
+
+#define CHECKERBOARD_PARITY(x,y,z) (((x)+(y)+(z))%2)
+
+#endif
